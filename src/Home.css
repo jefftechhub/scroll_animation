@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  overflow: hidden;
+}
+
+article div {
+  height: 70vh;
+}
+
+h1 {
+  background-color: yellow;
+  padding: 50px;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  transition: 0.5s ease-in-out;
+}
+
+h2 {
+  padding: 100px;
+  margin-bottom: 80vh;
+  font-size: 2rem;
+  transition: 1s ease-in-out;
+}
+
+h3 {
+  padding: 100px;
+  margin-bottom: 40vh;
+  font-size: 2rem;
+  transform: scale(0);
+  display: inline-block;
+  transition: 1s ease-in-out;
+}
+
+button {
+  margin: 50px;
+  padding: 10px;
+}
+
+#btnScroll {
+  transition: 0.8s ease-in-out;
+  transform: scale(0);
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
